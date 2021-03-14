@@ -7,7 +7,7 @@ metadata:
     owner: igor
 spec:
   selector:
-    project: {{ .Release.Name }} #Selecting PODS with those Labels(Выбираем POD-ы с этими лэйблами)
+    project: {{ .Release.Name }}
   ports:
     - name      : {{ .Release.Name }}-listener
       protocol  : TCP
