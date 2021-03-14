@@ -1,0 +1,4 @@
+container:
+  image: igor2020886/kefir
+
+replicaCount: 2 
